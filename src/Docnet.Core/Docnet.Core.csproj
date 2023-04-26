@@ -25,6 +25,7 @@
 
   <ItemGroup>
     <Content Include="runtimes/**" PackagePath="runtimes" Visible="true" />
+    <None Remove="runtimes\osx-arm64\native\pdfium.dylib" />
     <Content Include="build/net45/Docnet.Core.targets" Pack="true" PackagePath="build/net45/" />
     <None Include="../../assets/icon.png" Pack="true" PackagePath="/" />
   </ItemGroup>
